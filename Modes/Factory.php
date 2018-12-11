@@ -15,12 +15,26 @@ use Publics\Database;
 
 class Factory
 {
-    static function createDatabase()
+    static function createDatabase($id = 'master')
     {
+        $key = 'database_' . $id;
+        if ($id = 'slave') {
+            $slaves = Application::getInstance()->config['database']['slave'];
+            // 随机取， 实际开发根据特定算法选择最优的库
+            $db_conf = $slaves[array_rand($slaves)];
+        }else{
+            $db_conf = Application::getInstance()->config['database'][$id];
+        }
         // 调取单例
-        $db = Database::getInstance();
+//        $db = Database::getInstance();
         // 注册到树上
-        Register::set('db1', $db);
+        $db = Register::get($key);
+
+        if (!$db) {
+            $db = new Database\MySQLi();
+            $db->connect($db_conf['host'], $db_conf['user'], $db_conf['password'], $db_conf['dbname']);
+            Register::set($key, $db);
+        }
         return $db;
     }
 
@@ -33,7 +47,7 @@ class Factory
         */
         $key = 'user_' . $id;
         $user = Register::get($key);
-        if (!$user){
+        if (!$user) {
             $user = new User();
             Register::set($key, $user);
         }
