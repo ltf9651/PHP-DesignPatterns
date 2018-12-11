@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffbe9127-3f7e-4dcb-8124-5e8a28e6d7b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Modes/EventGenerator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modes/Factory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modes/FemaleStrategy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modes/MaleStrategy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modes/Observer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modes/Register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modes/Strategy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modes/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Publics/Databases/Mysql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Publics/Databases/Mysqli.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Publics/Databases/PDO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publics/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Publics/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publics/Loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/Publics/Loader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="ffbe9127-3f7e-4dcb-8124-5e8a28e6d7b2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +12,7 @@
     <session id="210119714">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.opened" value="2" />
@@ -66,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="97" column="45" lean-forward="true" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+            <state relative-caret-position="511">
+              <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -291,12 +275,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544508678550</updated>
       <workItem from="1544508680257" duration="81000" />
-      <workItem from="1544515313739" duration="6916000" />
+      <workItem from="1544515313739" duration="7003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6997000" />
+    <option name="totallyTimeSpent" value="7084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -442,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="97" column="45" lean-forward="true" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+        <state relative-caret-position="511">
+          <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
         </state>
       </provider>
     </entry>
