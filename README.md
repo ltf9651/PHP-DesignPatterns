@@ -1,4 +1,4 @@
-# PHP-DesignMode
+# PHP-DesignPatterns
 PHP 设计模式
 
 #### 面向对象编程的基本原则
