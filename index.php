@@ -4,7 +4,7 @@ define('BASEDIR', __DIR__);
 include BASEDIR . '/Publics/Loader.php';
 
 spl_autoload_register('\\Publics\\Loader::autoload');
-
+//test
 class Page
 {
     protected $strategy;
